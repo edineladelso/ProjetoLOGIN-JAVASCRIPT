@@ -31,6 +31,12 @@ nav button{
     font-size: 12pt;
     margin: 0 10px;
 }
+#criar_conta:hover, #entrar_conta:hover{
+    cursor: pointer;
+    transform: translate(1px, 2px);
+    transition: .1s;
+    background-color: #bacdbd;
+}
 /*--Fim da nav--*/
 
 .imagem-tela img{
@@ -83,6 +89,10 @@ label {
     font-size: 12pt;
     font-weight: 700;
 }
+label:hover {
+    background-color: rgba(47, 49, 47, 0.8);
+    border: solid 2px rgb(82, 82, 81);
+}
 
 .formulario section {
     flex-shrink: 2;
@@ -130,7 +140,7 @@ label {
     font-weight: 700;
 }
 .close:hover{
-    color: red;
+    color: orangered;
     cursor: pointer;
 }
 .send-input{
